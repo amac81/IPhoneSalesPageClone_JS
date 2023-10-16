@@ -1,4 +1,4 @@
-#  JS Iphone sales page Clone 
+#  JS Iphone sales page clone 
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/amac81/IPhoneSalesPageClone_JS/blob/main/LICENSE) 
 
