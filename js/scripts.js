@@ -16,7 +16,6 @@ buttons.forEach((btn) => {
       const buttonId = button.getAttribute("id");
 
       button.querySelector(".color").classList.add("selected");
-      console.log(buttonId);
 
       //change iPhone image
       image.classList.add("changing");
