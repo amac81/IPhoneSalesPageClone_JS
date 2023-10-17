@@ -130,7 +130,7 @@ header nav {
 }
 
 #main-content #product-image.changing {
-    transition: .5s;
+    opacity: 0.5;
 }
  
 #image-picker {
