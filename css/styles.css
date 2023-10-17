@@ -134,7 +134,7 @@ header nav {
 }
  
 #image-picker {
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 }
 
 #image-picker ul {
@@ -187,4 +187,98 @@ header nav {
 
 .selected {
     outline: 2px solid #43a1ff;
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+    #navbar li {
+        display: none;
+    }
+    
+    #navbar #logo {
+        display: flex;
+    }
+
+    #bottom-header-links a {
+        display: none;
+    }
+   
+    #bottom-header-links .btn {
+        display: flex;
+    }
+
+    #main-content {
+        padding: 2rem;
+        overflow: hidden;
+    }
+
+    #main-content #subtitle {
+        font-size: 2.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar li {
+        display: none;
+    }
+    
+    #navbar #logo {
+        display: flex;
+    }
+
+    #navbar #logo img { 
+        width: 2rem;
+    }
+
+    #bottom-header-links a {
+        display: none;
+    }
+   
+    #bottom-header-links .btn {
+        display: flex;
+    }
+
+    #main-content {
+        padding: 0.2rem;
+        overflow: hidden;
+    }
+
+    #main-content #title {
+        font-size: 3rem;
+    }
+
+    #main-content #subtitle {
+        font-size: 5rem;
+    }
+
+    #main-content #description {
+        font-size: 1.4rem;
+        max-width: 700px;
+        margin: 0.1rem auto;
+        line-height: 2.3rem;
+    }
+    
+    #main-content #price {
+        font-size: 1.4rem;    
+    }
+
+    #ribbon p {
+        font-size: 1.4rem;
+    }
+
+    #image-picker ul .description {
+     font-size: 1.2rem;
+    }
+
+    #image-picker li .color {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+    
+    #bottom-header-inner a {        
+        font-size: 1.3rem;
+    }
+    
+
 }
